@@ -15,7 +15,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
     
-    <script src="main.js"></script>
+    <script src="recuperarsenha.js"></script>
 </head>
 <body>
     <header>
@@ -28,7 +28,7 @@
          <a class="link" href="">Serviços</a>
          <a class="link" href="">Cadastro</a>
          <a class="link" href="">Equipe</a>
-         <a class="link" href="./index.html">Login</a>
+         <a class="link" href="./login.html">Login</a>
      </nav>
      </header>
     <div class="container">
@@ -38,25 +38,13 @@
                     <form class="form-signin" method="POST" action="">
                         <div class="row">
                             <div class="col-auto">
-                                <div style="padding-bottom:20px">
-                                    <h1 class="text-light">Alteração de Senha</h1>
-                                <div style="padding-bottom: 20px">
+                                <div style="padding-bottom:4px">
+                                    <h1 class="text-light">Recuperar Senha</h1>
+                                <div style="padding-bottom: 4px">
                                     <label class="text-light">Usuário:</label>
-                                    <input class="form-control" name="username" id="username" placeholder="Digite seu usuário" type="text" required>
-                                </div>
-                                <div style="padding-bottom: 20px">
-                                    <label class="text-light">E-mail</label>
-                                    <input class="form-control" name="email" id="email" placeholder="Digite seu email" type="text" required>
-                                </div>
-                                <div style="padding-bottom: 20px">
-                                    <label class="text-light">Nova Senha</label>
-                                    <input class="form-control" name="password" type="password" required>
-                                </div>
-                                <div style="padding-bottom: 20px">
-                                    <label class="text-light">Confirmar Senha</label>
-                                    <input class="form-control" name="password" type="password" required>
-                                </div>
-                                <input class="btn btn-outline-light" value="Alterar Senha" name="alterar" type="submit">
+                                    <input class="form-control" name="email" id="username" placeholder="Digite seu e-mail" type="text" required>
+                                <div style="padding-bottom: 4px">
+                                <input class="btn btn-outline-light" value="Enviar" name="alterar" type="submit">
                         </div>
                     </form>
                 </form>
