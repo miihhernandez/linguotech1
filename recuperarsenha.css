@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    height: 5rem;
+    height: 15rem;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -14,13 +14,9 @@ header {
     gap: 10%;
 }
 
-.img {
-    display:flex;
-    min-height: 16rem;
-    min-width: 16rem;
-    background-image: url(./img/3.png);
-    background-size: contain;
-    cursor: pointer;
+header img {
+    width: 15rem;
+    margin: 2rem;
 }
 
 nav {
@@ -40,26 +36,18 @@ a.link {
     color: white;
 }
 
-@media (max-width: 770px){
+@media (max-width: 1080px){
 body {
     background-attachment: fixed;
-    }
-    
-    header {
-        height: 20rem;
-        display: flex;
-        flex-direction: column;
+
 }
-    
-.img {
-    display:flex;
-    min-height: 16rem;
-    min-width: 16rem;
-    background-image: url(./img/3.png);
-    background-size: contain;
-    cursor: pointer;
+
+header {
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
 }
-    
+
 nav {
     display: flex;
     flex-wrap: wrap;
