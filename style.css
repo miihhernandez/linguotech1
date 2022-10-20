@@ -1,136 +1,120 @@
 body {
-    background-image: linear-gradient(to bottom, #1e0e39, #432186);
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-  }
+  background-image: linear-gradient(to bottom, #1e0e39, #432186);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
   
-  header {
-    height: 5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    gap: 10%;
-  }
+header {
+  height: 15rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 10%;
+}
   
+header img {
+  width: 15rem;
+  margin: 2rem;
+}
   
-  .form-label {
-    margin-bottom: 0.5rem;
-    color: #FFFFFF;
-    font-family: 'Fredoka One', cursive;
-    font-size: 15px;
-    line-height: 31px;
-    text-decoration: none;
-    color: white;
-  }
+.form-label {
+  margin-bottom: 0.5rem;
+  color: #FFFFFF;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  line-height: 31px;
+  text-decoration: none;
+  color: white;
+}
   
-  .form-check-label {
-    cursor: default;
-    font-family: 'Fredoka One', cursive;
-    font-size: 15px;
-    line-height: 31px;
-    text-decoration: none;
-    color: white;
-  
-  }
-  
-  .img {
-    display:flex;
-    min-height: 16rem;
-    min-width: 16rem;
-    background-image: url(./img/3.png);
-    background-size: contain;
-    cursor: pointer;
-  }
-  
-  nav {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-  }
-  
-  a.link {
-    font-family: 'Fredoka One', cursive;
-    font-size: 26px;
-    line-height: 31px;
-    text-decoration: none;
-    color: white;
-  }
-  
-  a.link-light {
-    font-family: 'Fredoka One', cursive;
-    font-size: 15px;
-    text-decoration: none;
-    color: white;
-  }
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+}
 
-  @media (max-width: 770px){
-    body {
-      background-attachment: fixed;
-    }
+.form-check-label {
+  cursor: default;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  line-height: 31px;
+  text-decoration: none;
+  color: white;
+}
+  
+a.link {
+  font-family: 'Fredoka One', cursive;
+  font-size: 26px;
+  line-height: 31px;
+  text-decoration: none;
+  color: white;
+}
+  
+a.link-light {
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+
+@media (max-width: 1080px){
+body {
+  background-attachment: fixed;
+}
     
-    header {
-      height: 20rem;
-      display: flex;
-      flex-direction: column;
-    }
+header {
+  height: 20rem;
+  display: flex;
+  flex-direction: column;
+}
+    
+.form-label {
+  margin-bottom: 0.5rem;
+  color: #FFFFFF;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  line-height: 31px;
+  text-decoration: none;
+  color: white;
+}
+    
+.form-check-label {
+  cursor: default;
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  line-height: 31px;
+  text-decoration: none;
+  color: white;  
+}
+    
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 3.5rem;
+}
     
     
-    .form-label {
-      margin-bottom: 0.5rem;
-      color: #FFFFFF;
-      font-family: 'Fredoka One', cursive;
-      font-size: 15px;
-      line-height: 31px;
-      text-decoration: none;
-      color: white;
-    }
+a.link {
+  font-family: 'Fredoka One', cursive;
+  font-size: 26px;
+  line-height: 0px;
+  text-decoration: none;
+  color: white;
+}
     
-    .form-check-label {
-      cursor: default;
-      font-family: 'Fredoka One', cursive;
-      font-size: 15px;
-      line-height: 31px;
-      text-decoration: none;
-      color: white;
-    
-    }
-    
-    .img {
-      display:flex;
-      min-height: 16rem;
-      min-width: 16rem;
-      background-image: url(./img/3.png);
-      background-size: contain;
-      cursor: pointer;
-    }
-    
-    nav {
-      display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      gap: 3rem;
-    }
-    
-    a.link {
-      font-family: 'Fredoka One', cursive;
-      font-size: 26px;
-      line-height: 31px;
-      text-decoration: none;
-      color: white;
-    }
-    
-    a.link-light {
-      font-family: 'Fredoka One', cursive;
-      font-size: 15px;
-      text-decoration: none;
-      color: white;
-    }
+a.link-light {
+  font-family: 'Fredoka One', cursive;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
   
   }
